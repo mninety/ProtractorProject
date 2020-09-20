@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="1" tests="2" time="7.495">
- <testsuite name="Demo Calculator Test" timestamp="2020-09-20T23:12:02" hostname="localhost" time="7.495" errors="0" tests="2" skipped="0" disabled="0" failures="1">
-  <testcase classname="Demo Calculator Test" name="Addition Test" time="7.178" />
-  <testcase classname="Demo Calculator Test" name="Subtraction Test" time="0.31">
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="8.941">
+ <testsuite name="Demo Calculator Test" timestamp="2020-09-21T00:00:51" hostname="localhost" time="8.941" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Demo Calculator Test" name="Addition Test" time="8.685" />
+  <testcase classname="Demo Calculator Test" name="Subtraction Test" time="0.253">
    <failure type="exception" message="Failed: homepage.clickOnGoButton1 is not a function"><![CDATA[TypeError: homepage.clickOnGoButton1 is not a function
     at UserContext.<anonymous> (D:\ProtractorProjects\tests\calculator.js:32:18)
     at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
