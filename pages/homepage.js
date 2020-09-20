@@ -1,5 +1,6 @@
 let homepage=function(){
     let firstnumber=element(by.model('first'));
+    let signSelector= element(by.model('operator'));
     let secondnumber=element(by.model('second'));
     let gobutton=element(by.css('[ng-click="doAddition()"]'));
  
@@ -12,6 +13,11 @@ let homepage=function(){
         firstnumber.sendKeys(firstNumber);
     };
     
+    this.selectMathAction=function(sign){
+        signSelector.sendKeys(sign);
+        
+    };
+
     this.enterSecondNumber=function(secondNumber){
         secondnumber.sendKeys(secondNumber);
     };
