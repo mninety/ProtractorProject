@@ -1,4 +1,4 @@
-let homepage=function(){
+let calculatorhomepage=function(){
     let firstnumber=element(by.model('first'));
     let signSelector= element(by.model('operator'));
     let secondnumber=element(by.model('second'));
@@ -32,4 +32,4 @@ let homepage=function(){
     };
 };
 
-module.exports=new homepage();
+module.exports=new calculatorhomepage();

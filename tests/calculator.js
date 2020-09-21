@@ -1,7 +1,7 @@
-let homepage= require('../pages/homepage');
-describe('Demo Calculator Test', function(){
+let homepage= require('../pages/calculatorhomepage');
+describe('Demo Calculator Test 1', function(){
 
-    it('Addition Test',function(){
+    fit('Addition Test',function(){
         //browser.get('http://juliemr.github.io/protractor-demo/');
         homepage.getURL('http://juliemr.github.io/protractor-demo/');
         browser.sleep(2000);
@@ -20,7 +20,7 @@ describe('Demo Calculator Test', function(){
 
     });
 
-    it('Subtraction Test',function(){
+    xit('Subtraction Test',function(){
         //browser.get('http://juliemr.github.io/protractor-demo/');
         homepage.getURL('http://juliemr.github.io/protractor-demo/');
         browser.sleep(2000);
@@ -40,6 +40,13 @@ describe('Demo Calculator Test', function(){
 
 
     });
+
+    
+});
+
+
+xdescribe('Demo Calculator Test 2', function(){
+
 
     it('Multiplication Test',function(){
         //browser.get('http://juliemr.github.io/protractor-demo/');
@@ -62,7 +69,7 @@ describe('Demo Calculator Test', function(){
 
     });
 
-    it('Division Test',function(){
+    xit('Division Test',function(){
         //browser.get('http://juliemr.github.io/protractor-demo/');
         homepage.getURL('http://juliemr.github.io/protractor-demo/');
         browser.sleep(2000);
@@ -79,6 +86,19 @@ describe('Demo Calculator Test', function(){
         //expect('8').toEqual(result.getText());
         homepage.verifyResult('5');
         browser.sleep(3000);
+
+
+    });
+    
+});
+
+fdescribe('Demo Calculator Test 3', function(){ //f stands for focused
+
+
+    it('Page Title Test',function(){
+        homepage.getURL('http://juliemr.github.io/protractor-demo/');
+        expect(browser.getTitle()).toEqual('Super Calculator');
+        browser.sleep(2000);
 
 
     });
